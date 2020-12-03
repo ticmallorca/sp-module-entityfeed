@@ -1,0 +1,28 @@
+{
+  "name": "sp-module-entityfeed",
+  "version": "1.0.0",
+  "description": "TicMallorca Entity Feed Reader Module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ticmallorca/sp-module-entityfeed.git"
+  },
+  "keywords": [
+    "entity",
+    "feed",
+    "reader",
+    "rss",
+    "module",
+    "service",
+    "platform"
+  ],
+  "author": "Alejandro Villen Hernandez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ticmallorca/sp-module-entityfeed/issues"
+  },
+  "homepage": "https://github.com/ticmallorca/sp-module-entityfeed#readme"
+}

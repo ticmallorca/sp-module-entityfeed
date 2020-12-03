@@ -1,0 +1,31 @@
+{
+	"name": "ticmEntityFeed",
+	"version": "1.0.0",
+	"link": "/ticmEntityFeed",
+	"settings": {},
+	"language": {
+		"en": {},
+		"ca": {},
+		"es": {}
+	},
+	"component": {
+		"dashboard": {
+			"name": "dashboard",
+			"dependencies": {
+				"css": [
+					"/module/ticmEntityFeed/css/component/dashboard/dashboard.css"
+				],
+				"javascript": [
+					"/js/tools/sha256.min.js",
+					"/module/ticmEntityFeed/js/component/dashboard/view.js",
+					"/module/ticmEntityFeed/js/component/dashboard/controller.js",
+					"/module/ticmEntityFeed/js/component/dashboard/dashboard.js"
+				]
+			}
+		}
+	},
+	"dependencies": {
+		"css": [],
+		"javascript": []
+	}
+}

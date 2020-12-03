@@ -1,0 +1,10 @@
+/**
+ * widget
+ * Copyright(c) 2019 Alejandro Villén
+ * MIT Licensed
+ */
+
+.ticmEntityFeed-scroll {
+    max-height: 600px;
+    overflow-y: auto;
+}

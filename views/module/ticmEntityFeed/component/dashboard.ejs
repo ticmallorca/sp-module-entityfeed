@@ -1,0 +1,23 @@
+<div class="card">
+    <div class="card-header header-elements-inline">
+        <h5 class="card-title">
+            <i class="icon-statistics mr-2"></i>
+            <%=module.ticmEntityFeed.language[page.lang].widget_title%> </h5>
+    </div>
+
+    <div class="card-body pb-3 ticmEntityFeed-scroll" id="ticmEntityFeed_feedContent">
+        <div class="row">
+            <div class="col-xl-6" id="entityFeedColumn_0"></div>
+
+            <div class="col-xl-6" id="entityFeedColumn_1"></div>
+        </div>
+    </div>
+
+</div>
+<script>
+    <% for (var i in module.ticmEntityFeed.settings.entity) {
+        if (parseInt(user.entityActivated) === module.ticmEntityFeed.settings.entity[i].id) {%>
+            const ticmEntityFeedURL = "<%= module.ticmEntityFeed.settings.entity[i].rss%>";
+        <%}
+    }%>
+</script>
